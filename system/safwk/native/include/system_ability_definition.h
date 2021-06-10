@@ -120,6 +120,7 @@ enum {
     RADIO_IVI_SERVICE_ID                             = 3003,
     AUDIO_SWIFT_SERVICE_ID                           = 3004,
     UPDATE_DISTRIBUTED_SERVICE_ID                    = 3006,
+    MEDIA_LIBRARY_SERVICE_ID                         = 3007,
     SUBSYS_MULTIMODAINPUT_SYS_ABILITY_ID_BEGIN       = 3100,
     MULTIMODAL_INPUT_SERVICE_ID                      = 3101,
     MULTIMODAL_CHANNEL_SERVICE_ID                    = 3102,
