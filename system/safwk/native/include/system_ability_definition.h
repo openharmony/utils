@@ -122,6 +122,7 @@ enum {
     UPDATE_DISTRIBUTED_SERVICE_ID                    = 3006,
     MEDIA_LIBRARY_SERVICE_ID                         = 3007,
     CAMERA_SERVICE_ID                                = 3008,
+    AUDIO_POLICY_SERVICE_ID                          = 3009,
     SUBSYS_MULTIMODAINPUT_SYS_ABILITY_ID_BEGIN       = 3100,
     MULTIMODAL_INPUT_SERVICE_ID                      = 3101,
     MULTIMODAL_CHANNEL_SERVICE_ID                    = 3102,
