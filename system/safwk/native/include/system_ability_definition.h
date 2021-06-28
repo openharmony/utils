@@ -16,6 +16,8 @@
 #ifndef UTILS_SYSTEM_ABILITY_DEFINITION_H
 #define UTILS_SYSTEM_ABILITY_DEFINITION_H
 
+#include<map>
+
 namespace OHOS {
 // system ability definition should be a number between FIRST_SYS_ABILITY_ID and LAST_SYS_ABILITY_ID
 enum {
@@ -171,6 +173,45 @@ enum {
     SOFTBUS_SERVER_SA_ID                             = 4700,
     DEVICE_AUTH_SERVICE_ID                           = 4701,
     LAST_SYS_ABILITY_ID                              = 0x00ffffff,  // 16777215
+};
+
+static const std::map<int, std::string> saNameMap_ = {
+    { 200, "AccountMgr" },
+    { 301, "AIEngine" },
+    { BUNDLE_MGR_SERVICE_SYS_ABILITY_ID, "BundleMgr" },
+    { 403, "FormMgr" },
+    { WIFI_DEVICE_SYS_ABILITY_ID, "WifiDevice" },
+    { WIFI_HOTSPOT_SYS_ABILITY_ID, "WifiHotspot" },
+    { WIFI_ENHANCER_SYS_ABILITY_ID, "WifiEnhancer" },
+    { WIFI_P2P_SYS_ABILITY_ID, "WifiP2p" },
+    { BLUETOOTH_HOST_SYS_ABILITY_ID, "BluetoothHost" },
+    { NFC_MANAGER_SYS_ABILITY_ID, "NfcManager" },
+    { NET_MANAGER_SYS_ABILITY_ID, "NetManager" },
+    { DISTRIBUTED_KV_DATA_SERVICE_ABILITY_ID, "DistributedKvData" },
+    { DISTRIBUTED_SCHED_SA_ID, "DistributedSched" },
+    { DISTRIBUTED_SCHED_ADAPTER_SA_ID, "DistributedSchedAdapter" },
+    { DISTRIBUTED_SCENARIO_MGR_SA_ID, "DistributedScenarioMgr" },
+    { RES_SCHED_SYS_ABILITY_ID, "ResourceSched" },
+    { RESSCHEDD_SA_ID, "ResourceSchedDamon" },
+    { BACKGROUND_TASK_MANAGER_SERVICE_ID, "BackgroundTaskManager" },
+    { WORK_SCHEDULE_SERVICE_ID, "WorkSchedule" },
+    { LOCATION_GEO_CONVERT_SA_ID, "LocationGeoConvert" },
+    { LOCATION_LOCATOR_SA_ID, "LocationLocator" },
+    { LOCATION_GNSS_SA_ID, "LocationGnss" },
+    { LOCATION_NETWORK_LOCATING_SA_ID, "LocationNetworkLocating" },
+    { LOCATION_NOPOWER_LOCATING_SA_ID, "LocationNopowerLocating" },
+    { AUDIO_DISTRIBUTED_SERVICE_ID, "AudioDistributed" },
+    { COMMON_EVENT_SERVICE_ABILITY_ID, "CommonEventService" },
+    { ADVANCED_NOTIFICATION_SERVICE_ABILITY_ID, "AdvancedNotificationService" },
+    { POWER_MANAGER_SERVICE_ID, "PowerManagerService" },
+    { POWER_MANAGER_BATT_SERVICE_ID, "PowerManagerBatt" },
+    { 3502, "DpmsService" },
+    { 3510, "KeystoreService" },
+    { SENSOR_SERVICE_ABILITY_ID, "SensorService" },
+    { MISCDEVICE_SERVICE_ABILITY_ID, "MiscDeviceService" },
+    { PASTEBOARD_SERVICE_ID, "DPasteboardService" },
+    { TELEPHONY_SYS_ABILITY_ID, "Telephony" },
+    { DCALL_SYS_ABILITY_ID, "DistributedCallMgr" },
 };
 } // namespace OHOS
 
