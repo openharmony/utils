@@ -17,7 +17,6 @@
 #define UTILS_SYSTEM_ABILITY_DEFINITION_H
 
 #include<map>
-#include<string>
 
 namespace OHOS {
 // system ability definition should be a number between FIRST_SYS_ABILITY_ID and LAST_SYS_ABILITY_ID
