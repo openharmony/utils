@@ -172,6 +172,8 @@ enum {
     WINDOW_MANAGER_ID                                = 4600,
     VSYNC_MANAGER_ID                                 = 4601,
     VSYNC_MANAGER_TEST_ID                            = 4602,
+    GRAPHIC_DUMPER_SERVICE_SA_ID                     = 4603,
+    GRAPHIC_DUMPER_COMMAND_SA_ID                     = 4604,
     SOFTBUS_SERVER_SA_ID                             = 4700,
     DEVICE_AUTH_SERVICE_ID                           = 4701,
     SUBSYS_DISTRIBUTED_HARDWARE_SYS_ABILITY_ID_BEGIN = 4800,
