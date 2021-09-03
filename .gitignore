@@ -1,2 +1,4 @@
 /resources
 /system/sepolicy
+/native
+/system/selinux_policy_standard
