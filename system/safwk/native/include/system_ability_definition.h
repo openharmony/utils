@@ -179,6 +179,8 @@ enum {
     SUBSYS_DISTRIBUTED_HARDWARE_SYS_ABILITY_ID_BEGIN = 4800,
     DISTRIBUTED_HARDWARE_SA_ID                       = 4801,
     DISTRIBUTED_HARDWARE_DEVICEMANAGER_SA_ID         = 4802,
+    DEVICE_STORAGE_MANAGER_SERVICE_ID                = 5000,
+    STORAGE_SERVICE_ID                               = 5001,
     LAST_SYS_ABILITY_ID                              = 0x00ffffff,  // 16777215
 };
 
