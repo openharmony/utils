@@ -241,7 +241,7 @@ static const std::map<int, std::string> saNameMap_ = {
     { TELEPHONY_SYS_ABILITY_ID, "Telephony" },
     { DCALL_SYS_ABILITY_ID, "DistributedCallMgr" },
     { DISTRIBUTED_HARDWARE_DEVICEMANAGER_SA_ID, "DeviceManagerService" },
-	{ USB_SYSTEM_ABILITY_ID, "UsbService" },
+    { USB_SYSTEM_ABILITY_ID, "UsbService" },
     { DEVICE_SERVICE_MANAGER_SA_ID, "HdfDeviceServiceManager" },
 };
 } // namespace OHOS
