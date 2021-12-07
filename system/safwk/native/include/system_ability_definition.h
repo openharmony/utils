@@ -178,6 +178,7 @@ enum {
     TELEPHONY_DATA_STORAGE_SYS_ABILITY_ID            = 4012,
     SUBSYS_UPDATE_SYS_ABILITY_ID_BEGIN               = 4100,
     SUBSYS_USB_SYS_ABILITY_ID_BEGIN                  = 4200,
+    USB_SYSTEM_ABILITY_ID                            = 4201,
     SUBSYS_WEARABLE_SYS_ABILITY_ID_BEGIN             = 4300,
     SUBSYS_WEARABLEHARDWARE_SYS_ABILITY_ID_BEGIN     = 4400,
     SUBSYS_IVI_SYS_ABILITY_ID_BEGIN                  = 4500,
@@ -241,6 +242,7 @@ static const std::map<int, std::string> saNameMap_ = {
     { TELEPHONY_SYS_ABILITY_ID, "Telephony" },
     { DCALL_SYS_ABILITY_ID, "DistributedCallMgr" },
     { DISTRIBUTED_HARDWARE_DEVICEMANAGER_SA_ID, "DeviceManagerService" },
+    { USB_SYSTEM_ABILITY_ID, "UsbService" },
     { DEVICE_SERVICE_MANAGER_SA_ID, "HdfDeviceServiceManager" },
 };
 } // namespace OHOS
