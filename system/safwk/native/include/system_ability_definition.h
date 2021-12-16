@@ -201,6 +201,7 @@ enum {
     DEVICE_STORAGE_MANAGER_SERVICE_ID                = 5000,
     STORAGE_SERVICE_ID                               = 5001,
     DEVICE_SERVICE_MANAGER_SA_ID                     = 5100,
+    DISTRIBUTED_DEVICE_PROFILE_SA_ID                 = 6001,
     LAST_SYS_ABILITY_ID                              = 0x00ffffff,  // 16777215
 };
 
@@ -244,6 +245,7 @@ static const std::map<int, std::string> saNameMap_ = {
     { DISTRIBUTED_HARDWARE_DEVICEMANAGER_SA_ID, "DeviceManagerService" },
     { USB_SYSTEM_ABILITY_ID, "UsbService" },
     { DEVICE_SERVICE_MANAGER_SA_ID, "HdfDeviceServiceManager" },
+    { DISTRIBUTED_DEVICE_PROFILE_SA_ID, "DistributedDeviceProfile" },
 };
 } // namespace OHOS
 
