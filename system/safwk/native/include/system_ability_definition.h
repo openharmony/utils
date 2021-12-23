@@ -201,6 +201,7 @@ enum {
     STORAGE_DISTRIBUTED_FILE_SERVICE_SA_ID           = 4902,
     DEVICE_STORAGE_MANAGER_SERVICE_ID                = 5000,
     STORAGE_SERVICE_ID                               = 5001,
+    STORAGE_MANAGER_DAEMON_ID                        = 5002,
     DEVICE_SERVICE_MANAGER_SA_ID                     = 5100,
     DISTRIBUTED_DEVICE_PROFILE_SA_ID                 = 6001,
     LAST_SYS_ABILITY_ID                              = 0x00ffffff,  // 16777215
