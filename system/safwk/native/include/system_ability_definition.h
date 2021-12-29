@@ -193,8 +193,7 @@ enum {
     VSYNC_MANAGER_TEST_ID                            = 4602,
     GRAPHIC_DUMPER_SERVICE_SA_ID                     = 4603,
     GRAPHIC_DUMPER_COMMAND_SA_ID                     = 4604,
-    WINDOW_MANAGER_SERVICE_ID                        = 4605,
-    DISPLAY_MANAGER_SERVICE_SA_ID                    = 4606,
+    ANIMATION_SERVER_SA_ID                           = 4605,
     SOFTBUS_SERVER_SA_ID                             = 4700,
     DEVICE_AUTH_SERVICE_ID                           = 4701,
     SUBSYS_DISTRIBUTED_HARDWARE_SYS_ABILITY_ID_BEGIN = 4800,
@@ -254,8 +253,12 @@ static const std::map<int, std::string> saNameMap_ = {
     { USB_SYSTEM_ABILITY_ID, "UsbService" },
     { DEVICE_SERVICE_MANAGER_SA_ID, "HdfDeviceServiceManager" },
     { DISTRIBUTED_DEVICE_PROFILE_SA_ID, "DistributedDeviceProfile" },
-    { WINDOW_MANAGER_SERVICE_ID, "WindowManagerService" },
-    { DISPLAY_MANAGER_SERVICE_SA_ID, "DisplayManagerService" },
+    { WINDOW_MANAGER_ID, "WindowManager" },
+    { VSYNC_MANAGER_ID, "VsyncManager" },
+    { VSYNC_MANAGER_TEST_ID, "VsyncManagerTest" },
+    { GRAPHIC_DUMPER_SERVICE_SA_ID, "GraphicDumperService" },
+    { GRAPHIC_DUMPER_COMMAND_SA_ID, "GraphicDumperCommand" },
+    { ANIMATION_SERVER_SA_ID, "AnimationServer" },
 };
 } // namespace OHOS
 
