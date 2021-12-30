@@ -24,6 +24,7 @@ namespace OHOS {
 enum {
     FIRST_SYS_ABILITY_ID                             = 0x00000001,
     SUBSYS_COMMON_SYS_ABILITY_ID_BEGIN               = 1,
+    RENDER_SERVICE                                   = 10,
     SUBSYS_AAFWK_SYS_ABILITY_ID_BEGIN                = 100,
     ABILITY_TOOLS_SERVICE_ID                         = 116,
     ABILITY_TEST_SERVICE_ID                          = 179,
@@ -99,6 +100,7 @@ enum {
     DISTRIBUTED_SCHED_TEST_MEDIA_ID                  = 1499,
     SUBSYS_DRIVERS_SYS_ABILITY_ID_BEGIN              = 1500,
     SUBSYS_GLOBAL_SYS_ABILITY_ID_BEGIN               = 1600,
+    ENTERPRISE_DEVICE_MANAGER_SA_ID                  = 1601,
     SUBSYS_GRAPHIC_SYS_ABILITY_ID_BEGIN              = 1700,
     SUBSYS_HBS_SYS_ABILITY_ID_BEGIN                  = 1800,
     SUBSYS_IAWARE_SYS_ABILITY_ID_BEGIN               = 1900,
@@ -197,6 +199,8 @@ enum {
     SUBSYS_DISTRIBUTED_HARDWARE_SYS_ABILITY_ID_BEGIN = 4800,
     DISTRIBUTED_HARDWARE_SA_ID                       = 4801,
     DISTRIBUTED_HARDWARE_DEVICEMANAGER_SA_ID         = 4802,
+    DISTRIBUTED_HARDWARE_CAMERA_SOURCE_SA_ID         = 4803,
+    DISTRIBUTED_HARDWARE_CAMERA_SINK_SA_ID           = 4804,
     SUBSYS_STORAGE_SYS_ABILITY_ID_BEGIN              = 4900,
     STORAGE_DISTRIBUTED_FILE_DAEMON_SA_ID            = 4901,
     STORAGE_DISTRIBUTED_FILE_SERVICE_SA_ID           = 4902,
@@ -204,6 +208,7 @@ enum {
     STORAGE_SERVICE_ID                               = 5001,
     DEVICE_SERVICE_MANAGER_SA_ID                     = 5100,
     DISTRIBUTED_DEVICE_PROFILE_SA_ID                 = 6001,
+    SUBSYS_ACE_SYS_ABILITY_ID_BEGIN                  = 7001,
     LAST_SYS_ABILITY_ID                              = 0x00ffffff,  // 16777215
 };
 
