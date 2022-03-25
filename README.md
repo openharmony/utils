@@ -7,13 +7,27 @@
 
 ## Introduction<a name="section11660541593"></a>
 
-The  **utils**  repository provides ndk_libraries_config and system functions.
+The  **utils**  repository provides some commonly used C and C++ development enhancement APIs. 
+It includes the following parts:
+
+**C++ part:**
+
+- Ability enhancement interface for file, path, string related operations;
+- Interfaces such as read-write locks, semaphores, timers, thread enhancements and thread pools;
+- Interfaces such as secure data container and data serialization;
+- Definition of error codes for each subsystem;
+- C language safety function interface.
+
+**Part C:**
+
+- HAL interface for standard file related operations;
+- Some other internal functions, such as timers, etc. 
 
 ## Directory Structure<a name="section17271017133915"></a>
 
 ```
 utils
-├── ndk_libraries_config # Configuration of the NDK library
+├── native               # utils native implementation
 └── system               # System-related predefined values and SA framework
 ```
 
@@ -25,9 +39,11 @@ For details, see the API Reference.
 
 Utils subsystem
 
-**utils**
+[utils](https://gitee.com/openharmony/utils/blob/master/README.md)
 
-utils\_native
+[utils\_native](https://gitee.com/openharmony/utils_native/blob/master/README.md)
 
-[utils\_native\_lite](https://gitee.com/openharmony/utils_native_lite)
+[utils\_native\_lite](https://gitee.com/openharmony/utils_native_lite/blob/master/README.md)
+
+
 

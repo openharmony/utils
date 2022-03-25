@@ -18,7 +18,6 @@
 
 **C部分：**
 
--   简易的数据存取接口kv\_store；
 -   标准文件相关操作HAL接口；
 -   其它一些内部功能，如定时器等。
 
@@ -27,7 +26,6 @@
 ```
 /utils
     ├── native                  # 工具类的native层实现
-    ├── ndk_libraries_config    # ndk库的配置目录
     └── system                  # 系统相关的预定义值和安全策略配
 ```
 
@@ -35,9 +33,9 @@
 
 **公共基础库子系统**
 
-utils
+[utils](https://gitee.com/openharmony/utils/blob/master/README_zh.md)
 
-utils\_native
+[utils\_native](https://gitee.com/openharmony/utils_native/blob/master/README_zh.md)
 
-[utils\_native\_lite](https://gitee.com/openharmony/utils_native_lite)
+[utils\_native\_lite](https://gitee.com/openharmony/utils_native_lite/blob/master/README_zh.md)
 
