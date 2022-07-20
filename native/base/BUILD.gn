@@ -1,0 +1,60 @@
+# Copyright (c) 2021 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+import("//build/ohos.gni")
+
+###############################################################################
+config("utils_config") {
+  visibility = [ ":*" ]
+  include_dirs = [
+    "include",
+    "//developtools/liblog",
+  ]
+  cflags = []
+  if (current_os == "mingw") {
+    cflags += [ "-Wno-error=inconsistent-dllimport" ]
+  }
+}
+
+config("private_securec_config") {
+  cflags = [ "-Wno-implicit-fallthrough" ]
+}
+
+config("static_utils_config") {
+  visibility = [ ":*" ]
+  include_dirs = [
+    "include",
+    "//developtools/liblog",
+  ]
+}
+
+group("utilsbase") {
+  public_deps = [ "//commonlibrary/c_utils/base:utilsbase" ]
+}
+
+group("utils") {
+  public_deps = [ "//commonlibrary/c_utils/base:utils" ]
+}
+
+group("utilsecurec") {
+  visibility = [ "//foundation/arkui/ace_engine/*:*" ]
+  public_deps = [ "//commonlibrary/c_utils/base:utilsecurec" ]
+}
+
+group("utilsecurec_shared") {
+  visibility = [
+    ":*",
+    "//foundation/arkui/ace_engine/*:*",
+  ]
+  public_deps = [ "//commonlibrary/c_utils/base:utilsecurec_shared" ]
+}
+###############################################################################
