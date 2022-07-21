@@ -49,12 +49,4 @@ group("utilsecurec") {
   visibility = [ "//foundation/arkui/ace_engine/*:*" ]
   public_deps = [ "//commonlibrary/c_utils/base:utilsecurec" ]
 }
-
-group("utilsecurec_shared") {
-  visibility = [
-    ":*",
-    "//foundation/arkui/ace_engine/*:*",
-  ]
-  public_deps = [ "//commonlibrary/c_utils/base:utilsecurec_shared" ]
-}
 ###############################################################################
