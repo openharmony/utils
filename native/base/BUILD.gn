@@ -42,16 +42,10 @@ config("static_utils_config") {
 
 utils_native_visibility_list = [
   "//base/update/*:*",
-  "//base/msdp/*:*",
-  "//base/security/*:*",
-  "//base/hiviewdfx/*:*",
   "//device/soc/*:*",
   "//device/board/isoftstone/*:*",
-  "//drivers/peripheral/*:*",
-  "//foundation/filemanagement/*:*",
   "//foundation/multimedia/*:*",
   "//foundation/communication/dsoftbus/*:*",
-  "//third_party/flutter/build/skia/ohos:*",
   "//test/xts/*:*",
   "//vendor/*:*",
   "//out/*:*",
@@ -65,10 +59,5 @@ group("utilsbase") {
 group("utils") {
   visibility = utils_native_visibility_list
   public_deps = [ "//commonlibrary/c_utils/base:utils" ]
-}
-
-group("utilsecurec") {
-  visibility = [ "//foundation/arkui/ace_engine/*:*" ]
-  public_deps = [ "//commonlibrary/c_utils/base:utilsecurec" ]
 }
 ###############################################################################
