@@ -41,7 +41,6 @@ config("static_utils_config") {
 }
 
 utils_native_visibility_list = [
-  "//foundation/communication/dsoftbus/*:*",
   "//test/xts/*:*",
   "//out/*:*",
 ]
