@@ -41,13 +41,8 @@ config("static_utils_config") {
 }
 
 utils_native_visibility_list = [
-  "//base/update/*:*",
-  "//device/soc/*:*",
-  "//device/board/isoftstone/*:*",
-  "//foundation/multimedia/*:*",
   "//foundation/communication/dsoftbus/*:*",
   "//test/xts/*:*",
-  "//vendor/*:*",
   "//out/*:*",
 ]
 
