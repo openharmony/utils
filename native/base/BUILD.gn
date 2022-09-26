@@ -40,10 +40,7 @@ config("static_utils_config") {
   ]
 }
 
-utils_native_visibility_list = [
-  "//test/xts/*:*",
-  "//out/*:*",
-]
+utils_native_visibility_list = [ "//out/*:*" ]
 
 group("utilsbase") {
   visibility = utils_native_visibility_list
